@@ -1,70 +1,81 @@
 html {
-  font-size: 10px;
-  background: url('barca.jpg') bottom center;
-  background-size: cover;
-}
-h1{
-  text-shadow: 0 0 .5rem black;
-  display: flex;
-  height: 50px;
-  font-style: italic;
-  font-weight: bolder;
-     font-size: 35px;
-     text-align:center;
-     padding: 10px;
-     background-color: violet;
-     border-radius: 10px;
-     width: auto;
-     justify-content: center;
-      font-family: cursive;
-      color: tomato;
-      border:10px solid dodgerblue;
-      margin: 2px;
-
+    font-size: 10px;
+    background: url('barca.jpg') bottom center;
+    background-size: cover;
 }
 
-body,html {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+h1 {
+    text-shadow: 0 0 .5rem black;
+    display: flex;
+    height: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    background-color: violet;
+    border-radius: 10px;
+    width: auto;
+    justify-content: center;
+    font-family: cursive;
+    color: tomato;
+    border: 10px solid dodgerblue;
+    margin: 2px;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .keys {
-  display: flex;
-  flex: 1;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .06s ease;
-  width: 10rem;
-  text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .06s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
 }
 
 kbd {
-  display: block;
-  font-size: 4rem;
+    display: block;
+    font-size: 4rem;
 }
 
 .sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  color: #ffc600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+
+.style {
+    font-style: aerial;
+    font-size: 5rem;
+    text-align: right;
+    padding: 5px;
+    border: 1px solid rgb(255, 56, 30);
+    border-radius: 3px;
+    width: fit-content;
 }
