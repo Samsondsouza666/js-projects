@@ -10,40 +10,40 @@
 <body>
 
 
-    <div class="keys">
-        <div data-key="65" class="key">
+    <div id="keys">
+        <div data-key="65">
             <kbd>B</kbd>
             <span class="sound">MESSI</span>
         </div>
-        <div data-key="83" class="key">
+        <div data-key="83">
             <kbd>A</kbd>
             <span class="sound">XAVI</span>
         </div>
-        <div data-key="68" class="key">
+        <div data-key="68">
             <kbd>R</kbd>
             <span class="sound">INIESTA</span>
         </div>
-        <div data-key="70" class="key">
+        <div data-key="70">
             <kbd>C</kbd>
             <span class="sound">PUYOL</span>
         </div>
-        <div data-key="71" class="key">
+        <div data-key="71">
             <kbd>E</kbd>
             <span class="sound">RONALDINHO</span>
         </div>
-        <div data-key="72" class="key">
+        <div data-key="72">
             <kbd>L</kbd>
             <span class="sound">CRUFF</span>
         </div>
-        <div data-key="74" class="key">
+        <div data-key="74">
             <kbd>O</kbd>
             <span class="sound">MATS</span>
         </div>
-        <div data-key="75" class="key">
+        <div data-key="75">
             <kbd>N</kbd>
             <span class="sound">ALVES</span>
         </div>
-        <div data-key="76" class="key">
+        <div data-key="76">
             <kbd>A</kbd>
             <span class="sound">S9</span>
         </div>
@@ -60,8 +60,6 @@
     <audio data-key="76" src="sounds/tink.wav"></audio>
 
     <script>
-        //  function hhS(){
-        //  const =
         function removeTransition(e) {
             if (e.propertyName !== 'transform') return;
             e.target.classList.remove('playing');
